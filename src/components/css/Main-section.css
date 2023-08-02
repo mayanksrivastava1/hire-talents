@@ -1,0 +1,102 @@
+/* Main-section.css */
+/* Add any additional styles you need here */
+
+/* Global styles for the hero-section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Styles for the hero-content */
+  .hero-content {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #111111;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .yellow-highlight {
+    color: #111111;
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .btn{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .btn-primary {
+    background-color: #3495eb;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+  /* Styles for the services-section */
+  .services-section {
+    padding: 80px 0;
+  }
+  
+  .services-icon img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .services-description h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .services-description p {
+    font-size: 14px;
+    color: rgb(59, 58, 58);
+  }
+  
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 28px;
+    }
+  
+    .hero-content p {
+      font-size: 16px;
+    }
+  
+  }
+  
